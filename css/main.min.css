@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat";
+  font-weight: normal;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.title_line {
+  width: 465px;
+  height: 2px;
+  background: #000;
+  position: absolute;
+}/*# sourceMappingURL=main.min.css.map */

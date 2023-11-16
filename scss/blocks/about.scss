@@ -1,0 +1,92 @@
+.about{
+    margin-top: 100px;
+    width: 654px;
+    position: relative;
+}
+.about_description {
+    margin-bottom: 100px;
+    h2 {
+        color: var(--grayscale-black, #000);
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 150%;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+    span {
+        color: var(--grayscale-50, #333);
+        font-family: Montserrat;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 140%; /* 50.4px */
+    }
+    p {
+        color: var(--grayscale-10, #9C9C9C);
+        /* Montserrat/Regular/18 */
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%; /* 28.8px */
+    }
+}
+.about_line{
+    width: 529px;
+    height: 2px;
+    top: 12px;
+    right: 0;
+}
+.about_characteristic {
+    width: 1200px;
+    height: 460px;
+    flex-shrink: 0;
+    background: var(--primary-blue-100, #2C3878);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 55px 70px;
+}
+.about_characteristic_item {
+    display: flex;
+    img {
+        width: 100px;
+        height: 100px;
+        flex-shrink: 0;
+        margin-right: 30px;
+    }
+    span {
+        width: 343px;
+        color: var(--grayscale-white, #FFF);
+        font-family: Montserrat;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%; /* 24px */
+        padding: 21px 0;
+    }
+}
+.about_offise {
+    margin: 85px 73px 100px 493px;
+    p {
+        width: 634px;
+        color: var(--grayscale-10, #9C9C9C);
+        /* Montserrat/Regular/18 */
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%; /* 28.8px */
+    }
+}
+.about_offise_button {
+    color: var(--grayscale-white, #FFF);
+    /* Montserrat/Medium/14 */
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 21px */
+}
