@@ -18,6 +18,13 @@
   color: var(--grayscale-50, #333);
   font-size: 16px;
   font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+.header_container .navigation_item strong {
+  color: var(--grayscale-50, #333);
+  font-size: 16px;
+  font-style: normal;
   font-weight: 600;
   line-height: 140%;
 }

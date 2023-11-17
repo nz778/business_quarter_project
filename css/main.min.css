@@ -11,6 +11,10 @@ a {
   color: inherit;
 }
 
+.wrapper {
+  overflow-x: hidden;
+}
+
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -21,4 +25,51 @@ a {
   height: 2px;
   background: #000;
   position: absolute;
+}
+
+.button {
+  padding: 14px 32px;
+  border: 1px solid var(--grayscale-30, #3C3C3C);
+  background: var(--primary-blue-100, #2C3878);
+  color: var(--grayscale-white, #FFF);
+  /* Montserrat/Medium/14 */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 21px */
+}
+
+.title {
+  margin: 100px 0 0 0;
+  width: 700px;
+  position: relative;
+}
+.title h2 {
+  color: var(--grayscale-black, #000);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.title span {
+  color: var(--grayscale-50, #333);
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 50.4px */
+}
+.title p {
+  margin-top: 46px;
+  color: var(--grayscale-10, #9C9C9C);
+  /* Montserrat/Regular/18 */
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 28.8px */
 }/*# sourceMappingURL=main.min.css.map */

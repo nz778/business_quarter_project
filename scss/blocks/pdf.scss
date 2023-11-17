@@ -1,0 +1,28 @@
+.pdf_title {
+    position: relative;
+    img {
+        position: absolute;
+        top: 143px;
+        right: -148px;
+    }
+    margin-bottom: 136px;
+}
+.pdf_title ul{
+    margin: 20px 0 46px 23px;
+    li {
+    color: var(--grayscale-10, #9C9C9C);
+    /* Montserrat/Regular/18 */
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    }
+}
+.pdf_line {
+    top: 12px;
+    right: 0;
+    width: 529px;
+    height: 2px;
+    border: 2px;
+}
