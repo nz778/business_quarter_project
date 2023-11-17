@@ -11,6 +11,9 @@
   font-weight: 700;
   line-height: 140%;
 }
+.hero .small_title {
+  font-size: 52px;
+}
 
 .hero_parametrs {
   position: absolute;
@@ -18,13 +21,12 @@
   top: 140px;
   right: 142px;
   width: 252px;
-  height: 525px;
   flex-shrink: 0;
   background: var(--primary-blue-100, #2C3878);
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   padding: 45px 0;
+  gap: 60px;
 }
 
 .hero_line {
@@ -53,4 +55,9 @@
   font-style: normal;
   font-weight: 400;
   line-height: 160%; /* 76.8px */
+}
+
+.hero_parametrs_location {
+  top: 95px;
+  right: 142px;
 }/*# sourceMappingURL=hero.min.css.map */

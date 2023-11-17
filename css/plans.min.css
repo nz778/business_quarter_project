@@ -1,1 +1,49 @@
-/*# sourceMappingURL=plans.min.css.map */
+.plans_description {
+  position: relative;
+}
+
+.plans_cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px 0 170px 0;
+  gap: 30px;
+}
+
+.plans_cards_item {
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  gap: 30px;
+}
+.plans_cards_item span {
+  color: #9C9C9C;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 21.6px */
+}
+.plans_cards_item span strong {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 36px */
+  text-transform: uppercase;
+}
+.plans_cards_item img {
+  width: 380px;
+  height: 340.914px;
+  flex-shrink: 0;
+}
+.plans_cards_item a {
+  width: 200px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.plans_line {
+  top: 12px;
+  right: 570px;
+}/*# sourceMappingURL=plans.min.css.map */
