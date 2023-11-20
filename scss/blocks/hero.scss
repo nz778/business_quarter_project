@@ -1,6 +1,9 @@
 .container {
     position: relative;
 }
+.navigation_mobile {
+    display: none;
+}
 .hero {
     margin-top: 97px;
     h1 {
@@ -131,6 +134,15 @@
         h1 {
             font-size: 24px;
             width: 343px;
+        }
+    }
+    .navigation_mobile {
+        display: flex;
+        justify-content: space-between;
+        .navigation_mobile_item {
+            font-size: 14px;
+            width: 48%;
+            text-align: center;
         }
     }
 }
