@@ -142,6 +142,7 @@
     list-style-type: none;
     display: flex;
     justify-content: space-between;
+    box-sizing: content-box;
   }
   .navigation_mobile .navigation_mobile_item {
     font-size: 14px;

@@ -684,6 +684,7 @@ a {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
+    box-sizing: content-box;
   }
   .navigation_mobile .navigation_mobile_item {
     font-size: 14px;
@@ -781,6 +782,27 @@ a {
   line-height: 120%; /* 21.6px */
 }
 
+@media screen and (max-width: 1279px) and (min-width: 768px) {
+  .container {
+    position: relative;
+  }
+  .infr_description_gallery {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .container {
+    position: relative;
+  }
+  .infr_description {
+    width: 100%;
+  }
+  .infr_description_gallery {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
 .map_yamap iframe {
   height: 825px;
 }
