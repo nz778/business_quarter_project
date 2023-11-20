@@ -385,6 +385,12 @@ a {
   }
 }
 @media screen and (max-width: 767px) {
+  .header_container {
+    margin-top: 15px;
+  }
+  .logo {
+    font-size: 20px;
+  }
   .header_container .navigation {
     width: auto;
   }
