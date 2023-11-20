@@ -200,6 +200,17 @@ a {
   line-height: 160%; /* 28.8px */
 }
 
+@media screen and (max-width: 1279px) and (min-width: 768px) {
+  .container {
+    width: 90vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .container {
+    width: auto;
+    margin: 0 15px;
+  }
+}
 .about {
   margin-top: 100px;
   position: relative;
@@ -346,6 +357,9 @@ a {
   border: 1px solid var(--grayscale-30, #3C3C3C);
   background: var(--primary-blue-100, #2C3878);
 }
+.header_container .navigation_item_button img {
+  display: none;
+}
 
 .logo {
   color: var(--grayscale-black, #000000);
@@ -353,8 +367,41 @@ a {
   font-size: 32px;
   font-weight: 700;
   line-height: 170%;
+  margin: auto 0;
 }
 
+@media screen and (max-width: 1279px) and (min-width: 768px) {
+  .logo {
+    font-size: 20px;
+  }
+  .header_container .navigation {
+    width: 480px;
+  }
+  .header_container .navigation_item {
+    font-size: 14px;
+  }
+  .navigation_item:first-child {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .header_container .navigation {
+    width: auto;
+  }
+  .navigation_item {
+    display: none;
+  }
+  .header_container .navigation_item_button {
+    display: block;
+    padding: 12px 20px;
+  }
+  .header_container .navigation_item_button span {
+    display: none;
+  }
+  .header_container .navigation_item_button img {
+    display: block;
+  }
+}
 .hero {
   margin-top: 97px;
   position: relative;
