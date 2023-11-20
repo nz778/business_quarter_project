@@ -106,11 +106,15 @@ footer {
             font-size: 20px;
             width: 100%;
         }
-        form input{
-            width: 100%;
-        }
+
     }
     .footer_logo {
         flex-direction: column;
     }
+    .footer_description .footer_description_form{
+        input{
+            width: 100%;
+        }
+    }
+
 }
