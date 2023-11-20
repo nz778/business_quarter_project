@@ -1,6 +1,8 @@
+.container {
+    position: relative;
+}
 .hero {
     margin-top: 97px;
-    position: relative;
     h1 {
         width: 747px;
         color: var(--grayscale-50, #333);
@@ -58,6 +60,14 @@
     right: 142px;
 }
 @media screen and (max-width:1279px) and (min-width:768px) {
+.hero{
+    h1 {
+        font-size: 40px;
+    }
+    .hero_line {
+        width: 30vw;
+    }
+}
 .hero_img {
     width: 100%;
 }
@@ -66,6 +76,16 @@
     width: 100%;
     flex-direction: row;
     justify-content: space-evenly;
+}
+.container {
+    position: relative;
+}
+.hero_parametrs_location {
+    position: absolute;
+    height: 160px;
+    width: 240px;
+    top: auto;
+    right: 0;
 }
 }
 
@@ -78,5 +98,24 @@
         width: 100%;
         flex-direction: row;
         justify-content: space-evenly;
+    }
+    .container {
+        position: relative;
+    }
+    .hero_parametrs_location {
+        position: absolute;
+        height: 89px;
+        width: 125px;
+        top: auto;
+        right: 0;
+    }
+    .hero_line {
+        display: none;
+    }
+    .hero{
+        h1 {
+            font-size: 24px;
+            width: 343px;
+        }
     }
 }
