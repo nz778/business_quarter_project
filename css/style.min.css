@@ -407,6 +407,12 @@ a {
   .about_characteristic :not(:last-child) {
     margin-bottom: 25px;
   }
+  .about_offise {
+    margin: 80px 0;
+  }
+  .about_offise p {
+    margin-bottom: 31px;
+  }
 }
 @media screen and (max-width: 767px) {
   .about_description, .about_offise, .about_characteristic {
@@ -418,6 +424,13 @@ a {
   }
   .about_characteristic :not(:last-child) {
     margin-bottom: 30px;
+  }
+  .about_offise {
+    margin: 80px 0;
+  }
+  .about_offise p {
+    margin-bottom: 50px;
+    font-size: 16px;
   }
 }
 .header_container {
