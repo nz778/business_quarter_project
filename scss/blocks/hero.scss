@@ -63,9 +63,10 @@
 .hero{
     h1 {
         font-size: 40px;
+        width: 440px;
     }
     .hero_line {
-        width: 30vw;
+        width: 40vw;
     }
 }
 .hero_img {
@@ -76,6 +77,12 @@
     width: 100%;
     flex-direction: row;
     justify-content: space-evenly;
+    span {
+        font-size: 16px;
+    }
+    strong {
+        font-size: 40px;
+    }
 }
 .container {
     position: relative;
@@ -94,10 +101,18 @@
         width: 100%;
     }
     .hero_parametrs {
+        padding: 21px 0;
         position: static;
         width: 100%;
         flex-direction: row;
         justify-content: space-evenly;
+        gap: 11px;
+        span {
+            font-size: 10px;
+        }
+        strong {
+            font-size: 20px;
+        }
     }
     .container {
         position: relative;

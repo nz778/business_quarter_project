@@ -478,9 +478,10 @@ a {
 @media screen and (max-width: 1279px) and (min-width: 768px) {
   .hero h1 {
     font-size: 40px;
+    width: 440px;
   }
   .hero .hero_line {
-    width: 30vw;
+    width: 40vw;
   }
   .hero_img {
     width: 100%;
@@ -490,6 +491,12 @@ a {
     width: 100%;
     flex-direction: row;
     justify-content: space-evenly;
+  }
+  .hero_parametrs span {
+    font-size: 16px;
+  }
+  .hero_parametrs strong {
+    font-size: 40px;
   }
   .container {
     position: relative;
@@ -507,10 +514,18 @@ a {
     width: 100%;
   }
   .hero_parametrs {
+    padding: 21px 0;
     position: static;
     width: 100%;
     flex-direction: row;
     justify-content: space-evenly;
+    gap: 11px;
+  }
+  .hero_parametrs span {
+    font-size: 10px;
+  }
+  .hero_parametrs strong {
+    font-size: 20px;
   }
   .container {
     position: relative;
