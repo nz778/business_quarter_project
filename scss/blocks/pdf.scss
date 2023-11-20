@@ -26,3 +26,32 @@
     height: 2px;
     border: 2px;
 }
+@media screen and (max-width:1279px) and (min-width:768px) {
+    .container {
+        position: relative;
+    }
+    .pdf_title {
+        width: 100%;
+        img {
+            top: 104px;
+            right: 68px;
+        }
+    }
+}
+
+@media screen and (max-width:767px) {
+    .container {
+        position: relative;
+    }
+    .pdf_title{
+        width: 100%;
+        img {
+            position: static;
+            margin-bottom: 40px;
+        }
+    }
+    .pdf_button {
+        display: block;
+        width: 230px;
+    }
+}

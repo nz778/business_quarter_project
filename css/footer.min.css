@@ -91,4 +91,37 @@ footer {
   font-style: normal;
   font-weight: 500;
   line-height: 150%; /* 21px */
+}
+
+@media screen and (max-width: 1279px) and (min-width: 768px) {
+  .container {
+    position: relative;
+  }
+  .footer_description {
+    flex-direction: column;
+    width: 100%;
+  }
+  .footer_description span {
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    position: relative;
+  }
+  .footer_description {
+    flex-direction: column;
+    width: 100%;
+  }
+  .footer_description span {
+    margin-bottom: 50px;
+    font-size: 20px;
+    width: 100%;
+  }
+  .footer_description form input {
+    width: 100%;
+  }
+  .footer_logo {
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=footer.min.css.map */

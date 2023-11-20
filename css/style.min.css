@@ -787,7 +787,40 @@ a {
     position: relative;
   }
   .infr_description_gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 10px;
     width: 100%;
+  }
+  .infr_description_gallery_item:nth-child(2) {
+    grid-row-start: 3;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  .infr_description_gallery_item:nth-child(3) {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  .infr_description_gallery_item:nth-child(4) {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+  .infr_description_gallery_item:nth-child(5) {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+  .infr_description_gallery_item:nth-child(6) {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 3;
   }
 }
 @media screen and (max-width: 767px) {
@@ -796,6 +829,12 @@ a {
   }
   .infr_description {
     width: 100%;
+  }
+  .infr_description h2 {
+    font-size: 12px;
+  }
+  .infr_description span {
+    font-size: 20px;
   }
   .infr_description_gallery {
     width: 100%;
@@ -838,6 +877,34 @@ a {
   border: 2px;
 }
 
+@media screen and (max-width: 1279px) and (min-width: 768px) {
+  .container {
+    position: relative;
+  }
+  .pdf_title {
+    width: 100%;
+  }
+  .pdf_title img {
+    top: 104px;
+    right: 68px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .container {
+    position: relative;
+  }
+  .pdf_title {
+    width: 100%;
+  }
+  .pdf_title img {
+    position: static;
+    margin-bottom: 40px;
+  }
+  .pdf_button {
+    display: block;
+    width: 230px;
+  }
+}
 .plans_description {
   position: relative;
 }
@@ -981,4 +1048,37 @@ footer {
   font-style: normal;
   font-weight: 500;
   line-height: 150%; /* 21px */
+}
+
+@media screen and (max-width: 1279px) and (min-width: 768px) {
+  .container {
+    position: relative;
+  }
+  .footer_description {
+    flex-direction: column;
+    width: 100%;
+  }
+  .footer_description span {
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    position: relative;
+  }
+  .footer_description {
+    flex-direction: column;
+    width: 100%;
+  }
+  .footer_description span {
+    margin-bottom: 50px;
+    font-size: 20px;
+    width: 100%;
+  }
+  .footer_description form input {
+    width: 100%;
+  }
+  .footer_logo {
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=style.min.css.map */
