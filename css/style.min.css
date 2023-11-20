@@ -421,6 +421,7 @@ a {
   .about_characteristic {
     flex-direction: column;
     height: auto;
+    padding: 51px 26px 69px 26px;
   }
   .about_characteristic :not(:last-child) {
     margin-bottom: 30px;
@@ -429,8 +430,22 @@ a {
     margin: 80px 0;
   }
   .about_offise p {
+    width: 100%;
     margin-bottom: 50px;
     font-size: 16px;
+  }
+  .about_characteristic_item {
+    height: 70px;
+  }
+  .about_characteristic_item img {
+    width: 70px;
+    height: 70px;
+  }
+  .about_characteristic_item span {
+    width: 100%;
+    font-size: 16px;
+    padding: 0;
+    margin: auto 0;
   }
 }
 .header_container {

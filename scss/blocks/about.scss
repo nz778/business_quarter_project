@@ -204,12 +204,27 @@
         flex-direction: column;
         height: auto;
         :not(:last-child){margin-bottom: 30px;}
+        padding: 51px 26px 69px 26px;
     }
     .about_offise {
         margin: 80px 0;
         p {
+            width: 100%;
             margin-bottom: 50px;
             font-size: 16px;
         }
+    }
+    .about_characteristic_item {
+        height: 70px;
+        img {
+            width:70px;
+            height: 70px;
         }
+        span {
+            width: 100%;
+            font-size: 16px;
+            padding:0;
+            margin: auto 0;
+        }
+    }
 }
