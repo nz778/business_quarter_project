@@ -472,6 +472,28 @@ a {
   right: 142px;
 }
 
+@media screen and (max-width: 1279px) and (min-width: 768px) {
+  .hero_img {
+    width: 100%;
+  }
+  .hero_parametrs {
+    position: static;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+@media screen and (max-width: 767px) {
+  .hero_img {
+    width: 100%;
+  }
+  .hero_parametrs {
+    position: static;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
 .infr_description {
   width: 700px;
   margin-bottom: 46px;
