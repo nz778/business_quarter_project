@@ -69,7 +69,10 @@
         width: 440px;
     }
     .hero_line {
-        width: 40vw;
+        width: 30vw;
+    }
+    .small_title {
+        font-size: 32px;
     }
 }
 .hero_img {
@@ -97,6 +100,7 @@
     top: auto;
     right: 0;
 }
+
 }
 
 @media screen and (max-width:767px){
@@ -133,7 +137,11 @@
     .hero{
         h1 {
             font-size: 24px;
-            width: 343px;
+            width: 100%
+        }
+        .small_title, .title {
+            font-size: 24px;
+            width: 100%;
         }
     }
     .navigation_mobile {

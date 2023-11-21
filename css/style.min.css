@@ -204,11 +204,28 @@ a {
   .container {
     width: 90vw;
   }
+  .title_decoration {
+    display: flex;
+  }
+  .container .title_line {
+    width: 473pxpx;
+    right: 0;
+  }
+  h1 {
+    margin-bottom: 40px;
+  }
 }
 @media screen and (max-width: 767px) {
   .container {
     width: auto;
     margin: 0 15px;
+  }
+  .container .title_line {
+    width: 200px;
+    right: 0;
+  }
+  h1 {
+    margin-bottom: 20px;
   }
 }
 .about {
@@ -617,7 +634,10 @@ a {
     width: 440px;
   }
   .hero .hero_line {
-    width: 40vw;
+    width: 30vw;
+  }
+  .hero .small_title {
+    font-size: 32px;
   }
   .hero_img {
     width: 100%;
@@ -678,7 +698,11 @@ a {
   }
   .hero h1 {
     font-size: 24px;
-    width: 343px;
+    width: 100%;
+  }
+  .hero .small_title, .hero .title {
+    font-size: 24px;
+    width: 100%;
   }
   .navigation_mobile {
     list-style-type: none;
@@ -950,11 +974,33 @@ a {
   margin-top: 50px;
 }
 
-.plans_line {
+.plans_description .plans_line {
   top: 12px;
   right: 570px;
 }
 
+@media screen and (max-width: 768px) {
+  .container {
+    position: relative;
+  }
+  .plans_line {
+    right: 0;
+  }
+  .plans_cards {
+    flex-direction: column;
+  }
+  .plans_cards .plans_cards_item {
+    width: 100%;
+  }
+  .plans_cards .plans_cards_item img {
+    width: 300px;
+    height: 269.143px;
+    flex-shrink: 0;
+  }
+  .plans_cards .plans_cards_item_button {
+    width: 100%;
+  }
+}
 footer {
   background: var(--primary-blue-100, #2C3878);
 }

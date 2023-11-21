@@ -78,10 +78,27 @@ a {
   .container {
     width: 90vw;
   }
+  .title_decoration {
+    display: flex;
+  }
+  .container .title_line {
+    width: 473pxpx;
+    right: 0;
+  }
+  h1 {
+    margin-bottom: 40px;
+  }
 }
 @media screen and (max-width: 767px) {
   .container {
     width: auto;
     margin: 0 15px;
+  }
+  .container .title_line {
+    width: 200px;
+    right: 0;
+  }
+  h1 {
+    margin-bottom: 20px;
   }
 }/*# sourceMappingURL=main.min.css.map */

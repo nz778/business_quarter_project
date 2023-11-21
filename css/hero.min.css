@@ -75,7 +75,10 @@
     width: 440px;
   }
   .hero .hero_line {
-    width: 40vw;
+    width: 30vw;
+  }
+  .hero .small_title {
+    font-size: 32px;
   }
   .hero_img {
     width: 100%;
@@ -136,7 +139,11 @@
   }
   .hero h1 {
     font-size: 24px;
-    width: 343px;
+    width: 100%;
+  }
+  .hero .small_title, .hero .title {
+    font-size: 24px;
+    width: 100%;
   }
   .navigation_mobile {
     list-style-type: none;

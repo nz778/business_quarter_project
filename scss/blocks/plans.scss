@@ -40,7 +40,32 @@
         margin-top: 50px;
     }
 }
-.plans_line {
+.plans_description .plans_line {
     top: 12px;
     right: 570px;
+}
+
+@media screen and (max-width:768px) {
+    .container {
+        position: relative;
+    }
+    .plans_line {
+        right: 0;
+    }
+    .plans_cards {
+        flex-direction: column;
+        .plans_cards_item {
+            width: 100%;
+            
+        }
+        .plans_cards_item img {
+            width: 300px;
+            height: 269.143px;
+            flex-shrink: 0;
+        }
+        .plans_cards_item_button {
+            width: 100%;
+        }
+    }
+
 }
