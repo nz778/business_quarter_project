@@ -10,13 +10,13 @@
   margin-top: 97px;
 }
 .hero h1 {
-  width: 747px;
   color: var(--grayscale-50, #333);
   font-family: Montserrat;
   font-size: 72px;
   font-style: normal;
   font-weight: 700;
   line-height: 140%;
+  flex-shrink: 0;
 }
 .hero .small_title {
   font-size: 52px;
@@ -69,13 +69,17 @@
   right: 142px;
 }
 
+.big_title_and_title_line {
+  display: flex;
+}
+.big_title_and_title_line :last-child {
+  margin-top: 44px;
+}
+
 @media screen and (max-width: 1279px) and (min-width: 768px) {
   .hero h1 {
     font-size: 40px;
     width: 440px;
-  }
-  .hero .hero_line {
-    width: 30vw;
   }
   .hero .small_title {
     font-size: 32px;

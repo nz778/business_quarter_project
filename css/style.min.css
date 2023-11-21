@@ -146,11 +146,18 @@ a {
   margin: 0 auto;
 }
 
-.title_line {
-  width: 465px;
+.big_title_and_title_line {
+  width: 100%;
+}
+.big_title_and_title_line h1 {
+  width: 747px;
+}
+.big_title_and_title_line .title_line {
+  width: 100%;
+  flex-basis: auto;
   height: 2px;
   background: #000;
-  position: absolute;
+  margin-left: 30px;
 }
 
 .button {
@@ -207,8 +214,8 @@ a {
   .title_decoration {
     display: flex;
   }
-  .container .title_line {
-    width: 473pxpx;
+  .title_line {
+    width: 473px;
     right: 0;
   }
   h1 {
@@ -221,7 +228,7 @@ a {
     margin: 0 15px;
   }
   .container .title_line {
-    width: 200px;
+    width: 180px;
     right: 0;
   }
   h1 {
@@ -333,86 +340,6 @@ a {
   overflow-x: hidden;
 }
 
-@media screen and (max-width: 1279px) and (min-width: 768px) {
-  .hero h1 {
-    font-size: 40px;
-    width: 440px;
-  }
-  .hero .hero_line {
-    width: 40vw;
-  }
-  .hero_img {
-    width: 100%;
-  }
-  .hero_parametrs {
-    position: static;
-    width: 100%;
-    flex-direction: row;
-    justify-content: space-evenly;
-  }
-  .hero_parametrs span {
-    font-size: 16px;
-  }
-  .hero_parametrs strong {
-    font-size: 40px;
-  }
-  .container {
-    position: relative;
-  }
-  .hero_parametrs_location {
-    position: absolute;
-    height: 160px;
-    width: 240px;
-    top: auto;
-    right: 0;
-  }
-}
-@media screen and (max-width: 767px) {
-  .hero_img {
-    width: 100%;
-  }
-  .hero_parametrs {
-    padding: 21px 0;
-    position: static;
-    width: 100%;
-    flex-direction: row;
-    justify-content: space-evenly;
-    gap: 11px;
-  }
-  .hero_parametrs span {
-    font-size: 10px;
-  }
-  .hero_parametrs strong {
-    font-size: 20px;
-  }
-  .container {
-    position: relative;
-  }
-  .hero_parametrs_location {
-    position: absolute;
-    height: 89px;
-    width: 125px;
-    top: auto;
-    right: 0;
-  }
-  .hero_line {
-    display: none;
-  }
-  .hero h1 {
-    font-size: 24px;
-    width: 343px;
-  }
-  .navigation_mobile {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-  }
-  .navigation_mobile .navigation_mobile_item {
-    font-size: 14px;
-    width: 48%;
-    text-align: center;
-  }
-}
 @media screen and (max-width: 1279px) and (min-width: 768px) {
   .about_description, .about_offise, .about_characteristic {
     width: 100%;
@@ -569,13 +496,13 @@ a {
   margin-top: 97px;
 }
 .hero h1 {
-  width: 747px;
   color: var(--grayscale-50, #333);
   font-family: Montserrat;
   font-size: 72px;
   font-style: normal;
   font-weight: 700;
   line-height: 140%;
+  flex-shrink: 0;
 }
 .hero .small_title {
   font-size: 52px;
@@ -628,13 +555,17 @@ a {
   right: 142px;
 }
 
+.big_title_and_title_line {
+  display: flex;
+}
+.big_title_and_title_line :last-child {
+  margin-top: 44px;
+}
+
 @media screen and (max-width: 1279px) and (min-width: 768px) {
   .hero h1 {
     font-size: 40px;
     width: 440px;
-  }
-  .hero .hero_line {
-    width: 30vw;
   }
   .hero .small_title {
     font-size: 32px;
@@ -854,9 +785,6 @@ a {
   .infr_description {
     width: 100%;
   }
-  .infr_description h2 {
-    font-size: 12px;
-  }
   .infr_description span {
     font-size: 20px;
   }
@@ -979,6 +907,12 @@ a {
   right: 570px;
 }
 
+@media screen and (max-width: 1279px) {
+  .plans_description .plans_line {
+    top: 12px;
+    right: 0;
+  }
+}
 @media screen and (max-width: 768px) {
   .container {
     position: relative;
