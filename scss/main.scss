@@ -47,7 +47,7 @@ a {
         background: #000;
         margin-left: 30px;
     }
-    :last-child {
+    .title_line {
         margin: auto 0 auto 13px;
     }
 }
@@ -105,7 +105,7 @@ a {
         margin-bottom: 40px;
     }
     .title_and_title_line {
-        :last-child {
+        .title_line {
             width: 473px;
         }
     }
@@ -120,7 +120,7 @@ a {
         margin-bottom: 20px;
     }
     .title_and_title_line {
-        :last-child {
+        .title_line {
             width: 100%;
         }
     }
