@@ -43,18 +43,9 @@
   margin-top: 50px;
 }
 
-@media screen and (max-width: 1279px) {
-  .plans_description .plans_line {
-    top: 12px;
-    right: 0;
-  }
-}
 @media screen and (max-width: 768px) {
   .container {
     position: relative;
-  }
-  .plans_line {
-    right: 0;
   }
   .plans_cards {
     flex-direction: column;

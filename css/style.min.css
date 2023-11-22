@@ -285,13 +285,6 @@ a {
   line-height: 160%; /* 28.8px */
 }
 
-.about_line {
-  width: 529px;
-  height: 2px;
-  top: 12px;
-  right: 0;
-}
-
 .about_characteristic {
   width: 1200px;
   height: 460px;
@@ -540,11 +533,6 @@ a {
   gap: 60px;
 }
 
-.hero_line {
-  top: 50px;
-  right: 0;
-}
-
 .hero_parametrs_item {
   display: flex;
   flex-direction: column;
@@ -688,7 +676,7 @@ a {
   background-size: cover;
 }
 .infr_description_gallery_item:nth-child(1) span {
-  width: 395px;
+  width: 100%;
 }
 
 .infr_description_gallery_item:nth-child(2) {
@@ -743,6 +731,7 @@ a {
   font-style: normal;
   font-weight: 600;
   line-height: 120%; /* 21.6px */
+  flex-shrink: 0;
 }
 
 @media screen and (max-width: 1279px) and (min-width: 768px) {
@@ -819,15 +808,18 @@ a {
   position: relative;
   margin-bottom: 136px;
 }
-.pdf_title img {
-  position: absolute;
-  top: 143px;
-  right: -148px;
+
+.pdf_list_and_image {
+  display: flex;
+  margin-bottom: 50px;
+}
+.pdf_list_and_image ul {
+  margin: auto 0 auto 20px;
+}
+.pdf_list_and_image img {
+  margin-left: 50px;
 }
 
-.pdf_title ul {
-  margin: 20px 0 46px 23px;
-}
 .pdf_title ul li {
   color: var(--grayscale-10, #9C9C9C);
   /* Montserrat/Regular/18 */
@@ -838,28 +830,17 @@ a {
   line-height: 160%;
 }
 
-@media screen and (max-width: 1279px) and (min-width: 768px) {
-  .container {
-    position: relative;
-  }
-  .pdf_title {
-    width: 100%;
-  }
-  .pdf_title img {
-    top: 104px;
-    right: 68px;
-  }
-}
 @media screen and (max-width: 767px) {
   .container {
     position: relative;
   }
-  .pdf_title {
-    width: 100%;
+  .pdf_list_and_image {
+    flex-direction: column;
   }
-  .pdf_title img {
-    position: static;
-    margin-bottom: 40px;
+  .pdf_list_and_image img {
+    width: 113px;
+    height: 113px;
+    margin: 26px 0 0 0;
   }
   .pdf_button {
     display: block;
@@ -911,18 +892,9 @@ a {
   margin-top: 50px;
 }
 
-@media screen and (max-width: 1279px) {
-  .plans_description .plans_line {
-    top: 12px;
-    right: 0;
-  }
-}
 @media screen and (max-width: 768px) {
   .container {
     position: relative;
-  }
-  .plans_line {
-    right: 0;
   }
   .plans_cards {
     flex-direction: column;

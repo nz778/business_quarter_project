@@ -1,14 +1,18 @@
 .pdf_title {
-    position: relative;
-    img {
-        position: absolute;
-        top: 143px;
-        right: -148px;
-    }
+    position: relative;   
     margin-bottom: 136px;
 }
+.pdf_list_and_image {
+    display: flex;
+    margin-bottom: 50px;
+    ul {
+        margin: auto 0 auto 20px;
+    }
+    img {
+        margin-left: 50px;
+    }
+}
 .pdf_title ul{
-    margin: 20px 0 46px 23px;
     li {
     color: var(--grayscale-10, #9C9C9C);
     /* Montserrat/Regular/18 */
@@ -19,28 +23,16 @@
     line-height: 160%;
     }
 }
-@media screen and (max-width:1279px) and (min-width:768px) {
-    .container {
-        position: relative;
-    }
-    .pdf_title {
-        width: 100%;
-        img {
-            top: 104px;
-            right: 68px;
-        }
-    }
-}
-
 @media screen and (max-width:767px) {
     .container {
         position: relative;
     }
-    .pdf_title{
-        width: 100%;
+    .pdf_list_and_image {
+        flex-direction: column;
         img {
-            position: static;
-            margin-bottom: 40px;
+            width: 113px;
+            height: 113px;
+            margin: 26px 0 0 0;
         }
     }
     .pdf_button {

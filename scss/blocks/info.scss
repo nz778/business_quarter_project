@@ -20,7 +20,7 @@
     padding: 230px 185px 30px 20px;
     background-size: cover;
     span {
-        width: 395px;
+        width: 100%;
     }
 }
 .infr_description_gallery_item:nth-child(2) {
@@ -71,6 +71,7 @@
         font-style: normal;
         font-weight: 600;
         line-height: 120%; /* 21.6px */
+        flex-shrink: 0;
     }
 }
 @media screen and (max-width:1279px) and (min-width:768px) {
