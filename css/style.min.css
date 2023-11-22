@@ -151,6 +151,7 @@ a {
 }
 .big_title_and_title_line h1 {
   width: 747px;
+  flex-shrink: 0;
 }
 .big_title_and_title_line .title_line {
   width: 100%;
@@ -169,6 +170,7 @@ a {
   width: auto;
   margin: 0;
   height: auto;
+  flex-shrink: 0;
 }
 .title_and_title_line .title_line {
   width: 529px;
@@ -229,12 +231,11 @@ a {
   .title_decoration {
     display: flex;
   }
-  .title_line {
-    width: 473px;
-    right: 0;
-  }
   h1 {
     margin-bottom: 40px;
+  }
+  .title_and_title_line :last-child {
+    width: 473px;
   }
 }
 @media screen and (max-width: 767px) {
@@ -242,12 +243,11 @@ a {
     width: auto;
     margin: 0 15px;
   }
-  .container .title_line {
-    width: 180px;
-    right: 0;
-  }
   h1 {
     margin-bottom: 20px;
+  }
+  .title_and_title_line :last-child {
+    width: 100%;
   }
 }
 .about {
@@ -352,6 +352,7 @@ a {
 .about_image {
   width: 100vw;
   overflow-x: hidden;
+  margin-bottom: 110px;
 }
 
 @media screen and (max-width: 1279px) and (min-width: 768px) {
@@ -373,6 +374,9 @@ a {
   }
 }
 @media screen and (max-width: 767px) {
+  .about_image {
+    margin-bottom: 50px;
+  }
   .about_description, .about_offise, .about_characteristic {
     width: 100%;
   }
@@ -669,6 +673,7 @@ a {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 10px 10px;
+  margin-bottom: 110px;
 }
 
 .infr_description_gallery_item:nth-child(1) {
@@ -795,12 +800,21 @@ a {
     width: 100%;
     display: flex;
     flex-direction: column;
+    margin-bottom: 60px;
   }
+}
+.map_yamap {
+  margin-bottom: 120px;
 }
 .map_yamap iframe {
   height: 825px;
 }
 
+@media screen and (max-width: 767px) {
+  .map_yamap {
+    margin-bottom: 80px;
+  }
+}
 .pdf_title {
   position: relative;
   margin-bottom: 136px;
@@ -895,11 +909,6 @@ a {
   width: 200px;
   text-align: center;
   margin-top: 50px;
-}
-
-.plans_description .plans_line {
-  top: 12px;
-  right: 570px;
 }
 
 @media screen and (max-width: 1279px) {

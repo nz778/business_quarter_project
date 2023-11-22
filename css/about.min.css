@@ -100,6 +100,7 @@
 .about_image {
   width: 100vw;
   overflow-x: hidden;
+  margin-bottom: 110px;
 }
 
 @media screen and (max-width: 1279px) and (min-width: 768px) {
@@ -121,6 +122,9 @@
   }
 }
 @media screen and (max-width: 767px) {
+  .about_image {
+    margin-bottom: 50px;
+  }
   .about_description, .about_offise, .about_characteristic {
     width: 100%;
   }

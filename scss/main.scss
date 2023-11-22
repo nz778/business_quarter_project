@@ -20,6 +20,7 @@ a {
     width: 100%;
     h1 {
         width: 747px;
+        flex-shrink: 0;
     }
     .title_line {
         width: 100%;
@@ -37,6 +38,7 @@ a {
         width: auto;
         margin: 0;
         height: auto;
+        flex-shrink: 0;
     }
     .title_line {
         width: 529px;
@@ -102,6 +104,12 @@ a {
     h1 {
         margin-bottom: 40px;
     }
+    .title_and_title_line {
+        :last-child {
+            width: 473px;
+        }
+    }
+
 }
 @media screen and (max-width:767px){
     .container {
@@ -110,5 +118,10 @@ a {
     }
     h1 {
         margin-bottom: 20px;
+    }
+    .title_and_title_line {
+        :last-child {
+            width: 100%;
+        }
     }
 }

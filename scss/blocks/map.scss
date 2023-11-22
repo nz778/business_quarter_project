@@ -1,5 +1,11 @@
 .map_yamap {
     iframe {
         height: 825px;
-    }     
+    }
+    margin-bottom: 120px;     
+}
+@media screen and (max-width: 767px) {
+    .map_yamap {
+        margin-bottom: 80px;
+    }
 }
