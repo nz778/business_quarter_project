@@ -7,7 +7,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 10px 10px;
-    margin-bottom: 110px;
+    margin: 50px 0 110px 0;
 }
 .infr_description_gallery_item:nth-child(1) {
     grid-column-start: 1;
@@ -130,7 +130,7 @@
         width: 100%;
         display: flex;
         flex-direction: column;
-        margin-bottom: 60px;
+        margin: 29px 0 60px 0;
     }
     .infr_description_gallery .infr_description_gallery_item {
         padding: 200px 90px 30px 20px;

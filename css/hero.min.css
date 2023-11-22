@@ -151,8 +151,9 @@
     box-sizing: content-box;
   }
   .navigation_mobile .navigation_mobile_item {
-    font-size: 14px;
+    font-size: 10px;
     width: 48%;
+    padding: 12px 20px;
     text-align: center;
   }
 }/*# sourceMappingURL=hero.min.css.map */
