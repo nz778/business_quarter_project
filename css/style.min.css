@@ -160,6 +160,27 @@ a {
   margin-left: 30px;
 }
 
+.title_and_title_line {
+  width: 100%;
+  display: flex;
+  margin-bottom: 32px;
+}
+.title_and_title_line h2 {
+  width: auto;
+  margin: 0;
+  height: auto;
+}
+.title_and_title_line .title_line {
+  width: 529px;
+  flex-basis: auto;
+  height: 2px;
+  background: #000;
+  margin-left: 30px;
+}
+.title_and_title_line :last-child {
+  margin: auto 0 auto 13px;
+}
+
 .button {
   padding: 14px 32px;
   border: 1px solid var(--grayscale-30, #3C3C3C);
@@ -173,11 +194,6 @@ a {
   line-height: 150%; /* 21px */
 }
 
-.title {
-  margin: 100px 0 0 0;
-  width: 700px;
-  position: relative;
-}
 .title h2 {
   color: var(--grayscale-black, #000);
   font-family: Montserrat;
@@ -186,7 +202,6 @@ a {
   font-weight: 500;
   line-height: 150%;
   text-transform: uppercase;
-  margin-bottom: 20px;
 }
 .title span {
   color: var(--grayscale-50, #333);
@@ -251,7 +266,6 @@ a {
   font-weight: 500;
   line-height: 150%;
   text-transform: uppercase;
-  margin-bottom: 20px;
 }
 .about_description span {
   color: var(--grayscale-50, #333);
@@ -647,19 +661,8 @@ a {
     text-align: center;
   }
 }
-.infr_description {
-  width: 700px;
-  margin-bottom: 46px;
-}
 .infr_description span {
   width: 100%;
-}
-
-.infr_line {
-  top: 12px;
-  right: 29px;
-  width: 473px;
-  height: 2px;
 }
 
 .infr_description_gallery {
@@ -819,14 +822,6 @@ a {
   font-style: normal;
   font-weight: 400;
   line-height: 160%;
-}
-
-.pdf_line {
-  top: 12px;
-  right: 0;
-  width: 529px;
-  height: 2px;
-  border: 2px;
 }
 
 @media screen and (max-width: 1279px) and (min-width: 768px) {

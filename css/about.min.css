@@ -14,7 +14,6 @@
   font-weight: 500;
   line-height: 150%;
   text-transform: uppercase;
-  margin-bottom: 20px;
 }
 .about_description span {
   color: var(--grayscale-50, #333);
